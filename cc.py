@@ -19,12 +19,12 @@ import os
 
 print ('''
                 \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m═══\x1b[38;2;0;49;147m═══~
-                \x1b[38;2;0;212;14m║ \x1bWelcome L7DPAA -={Layer 7 DDoS Panel Anonymous Albania}=- by \x1b[38;2;0;212;14mAlb[E]rTTz & \x1b[38;2;0;49;147Th3Los3Ra.K.a\x1b
-                \x1b[38;2;0;212;14m║ \x1bUsage: python3 cc.py -url https://example.com -m cc -v 5 -t 999 -f proxy.txt -s 999 -check\x1b
+                \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mWelcome L7DPAA -={Layer 7 DDoS Panel Anonymous Albania}=- by \x1b[38;2;0;212;14mAlb[E]rTTz & \x1b[38;2;0;49;147Th3Los3Ra.K.a\x1b[38;2;239;239;239m
+                \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mUsage: python3 cc.py -url https://example.com -m cc -v 5 -t 999 -f proxy.txt -s 999 -check\x1b[38;2;239;239;239m
                 \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m═══\x1b[38;2;0;49;147m═══\x1b[38;2;0;49;147m══~
                 \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m═══\x1b[38;2;0;49;147m═══~
-                \x1b[38;2;0;212;14m║ \x1bIF YOU DON'T HAVE A PROXY YOU CAN DOWNLOAD THEM AUTOMATICALLY WITH THE COMMAND PYTHON3 CC.PY -DOWN\x1b
-                \x1b[38;2;0;212;14m║ \x1bIf you need help, contact us on fb: https://www.facebook.com/Alb3rtTTz/\x1b
+                \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mIF YOU DON'T HAVE A PROXY YOU CAN DOWNLOAD THEM AUTOMATICALLY WITH THE COMMAND PYTHON3 CC.PY -DOWN\x1b[38;2;239;239;239m
+                \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mIf you need help, contact us on fb: https://www.facebook.com/Alb3rtTTz/\x1b[38;2;239;239;239m
                 \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m═══\x1b[38;2;0;49;147m═══\x1b[38;2;0;49;147m══~''')
 
 acceptall = [

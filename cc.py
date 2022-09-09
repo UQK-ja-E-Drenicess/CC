@@ -18,25 +18,26 @@ import os
 
 
 print ('''
-	   /////    /////    /////////////
-	  CCCCC/   CCCCC/   | CC-attack |/
-	 CC/      CC/       |-----------|/ 
-	 CC/      CC/       |  Layer 7  |/ 
-	 CC/////  CC/////   | ddos tool |/ 
-	  CCCCC/   CCCCC/   |___________|/
->--------------------------------------------->
-Version 3.7.1 (2022/3/24)
-                            C0d3d by Alb[E]rTTz
-┌─────────────────────────────────────────────┐
-│        Tos: Don't attack .gov website       │
-├─────────────────────────────────────────────┤
-│                 New stuff:                  │
-│          [+] Added Http Proxy Support       │
-│          [+] Optimization                   │
-│          [+] Changed Varible Name           │
-├─────────────────────────────────────────────┤
-│ Link: https://github.com/Leeon123/CC-attack │
-└─────────────────────────────────────────────┘''')
+╔═════════════════════════════════════════════╗
+║	   /////    /////    /////////////    ║
+║	  CCCCC/   CCCCC/   | CC-attack |/    ║
+║	 CC/      CC/       |-----------|/    ║
+║	 CC/      CC/       |  Layer 7  |/    ║ 
+║	 CC/////  CC/////   | ddos tool |/    ║ 
+║	  CCCCC/   CCCCC/   |___________|/    ║
+║ >------------------------------------------>║
+║ Version 3.7.1 (2022/3/24)                   ║
+║                          C0d3d by Alb[E]rTTz║
+║═════════════════════════════════════════════╗
+║        Tos: Don't attack .gov website       │
+║═════════════════════════════════════════════║
+║                 New stuff:                  ║
+║          [+] Added Http Proxy Support       ║
+║          [+] Optimization                   ║
+║          [+] Changed Varible Name           ║
+║═════════════════════════════════════════════║
+║ Link: https://github.com/Leeon123/CC-attack ║
+╚═════════════════════════════════════════════╝''')
 
 acceptall = [
 		"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\n",
@@ -574,22 +575,22 @@ def DownloadProxies(proxy_ver):
 	print("> Have already downloaded proxies list as "+out_file)
 
 def PrintHelp():
-	print('''╔════════════════════════════════════════════╗
-   ║-h/help   | showing this message║
-   ║-url      | set target url║
-   ║-m/mode   | set program mode║
-   ║-data     | set post data path (only works on post mode)║
-   ║          | (Example: -data data.json)║
-   ║-cookies  | set cookies (Example: 'id:xxx;ua:xxx')║
-   ║-v        | set proxy type (4/5/http, default:5)║
-   ║-t        | set threads number (default:800)║
-   ║-f        | set proxies file (default:proxy.txt)║
-   ║-b        | enable/disable brute mode║
-   ║          | Enable=1 Disable=0  (default:0)║
-   ║-s        | set attack time(default:60)║
-   ║-down     | download proxies║
-   ║-check    | check proxies║
-╚════════════════════════════════════════════╝''')
+	print('''===============  CC-attack help list  ===============
+   -h/help   | showing this message
+   -url      | set target url
+   -m/mode   | set program mode
+   -data     | set post data path (only works on post mode)
+             | (Example: -data data.json)
+   -cookies  | set cookies (Example: 'id:xxx;ua:xxx')
+   -v        | set proxy type (4/5/http, default:5)
+   -t        | set threads number (default:800)
+   -f        | set proxies file (default:proxy.txt)
+   -b        | enable/disable brute mode
+             | Enable=1 Disable=0  (default:0)
+   -s        | set attack time(default:60)
+   -down     | download proxies
+   -check    | check proxies
+=====================================================''')
 
 
 def main():
